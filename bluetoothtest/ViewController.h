@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *send_data;
+- (IBAction)connect:(id)sender;
+- (IBAction)send:(id)sender;
 
 @end

@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize send_data;
 
 - (void)viewDidLoad
 {
@@ -22,6 +23,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSend_data:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +33,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)connect:(id)sender {
+}
+
+- (IBAction)send:(id)sender {
+}
 @end

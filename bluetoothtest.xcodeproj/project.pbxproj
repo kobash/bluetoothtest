@@ -20,6 +20,7 @@
 		5BA952F115F4D1680076CF9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA952D215F4D1680076CF9B /* Foundation.framework */; };
 		5BA952F915F4D1690076CF9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BA952F715F4D1690076CF9B /* InfoPlist.strings */; };
 		5BA952FC15F4D1690076CF9B /* bluetoothtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA952FB15F4D1690076CF9B /* bluetoothtestTests.m */; };
+		5BA9530615F4D19C0076CF9B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA9530515F4D19C0076CF9B /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5BA952F815F4D1690076CF9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BA952FA15F4D1690076CF9B /* bluetoothtestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetoothtestTests.h; sourceTree = "<group>"; };
 		5BA952FB15F4D1690076CF9B /* bluetoothtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothtestTests.m; sourceTree = "<group>"; };
+		5BA9530515F4D19C0076CF9B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA9530615F4D19C0076CF9B /* GameKit.framework in Frameworks */,
 				5BA952D115F4D1680076CF9B /* UIKit.framework in Frameworks */,
 				5BA952D315F4D1680076CF9B /* Foundation.framework in Frameworks */,
 				5BA952D515F4D1680076CF9B /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		5BA952CF15F4D1680076CF9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BA9530515F4D19C0076CF9B /* GameKit.framework */,
 				5BA952D015F4D1680076CF9B /* UIKit.framework */,
 				5BA952D215F4D1680076CF9B /* Foundation.framework */,
 				5BA952D415F4D1680076CF9B /* CoreGraphics.framework */,
