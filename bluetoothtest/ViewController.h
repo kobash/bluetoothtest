@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ConnectionManager.h"
+
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *send_data;

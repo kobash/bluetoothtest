@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8A4A2015F85A580068DCD3 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A4A1F15F85A580068DCD3 /* ConnectionManager.m */; };
 		5BA952D115F4D1680076CF9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA952D015F4D1680076CF9B /* UIKit.framework */; };
 		5BA952D315F4D1680076CF9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA952D215F4D1680076CF9B /* Foundation.framework */; };
 		5BA952D515F4D1680076CF9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA952D415F4D1680076CF9B /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B8A4A1D15F85A430068DCD3 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionManager.h; path = ../../../../Downloads/BluetoothSample/BluetoothSample/ConnectionManager.h; sourceTree = "<group>"; };
+		5B8A4A1F15F85A580068DCD3 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionManager.m; path = ../../../../Downloads/BluetoothSample/BluetoothSample/ConnectionManager.m; sourceTree = "<group>"; };
 		5BA952CC15F4D1680076CF9B /* bluetoothtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA952D015F4D1680076CF9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BA952D215F4D1680076CF9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 		5BA952D615F4D1680076CF9B /* bluetoothtest */ = {
 			isa = PBXGroup;
 			children = (
+				5B8A4A1F15F85A580068DCD3 /* ConnectionManager.m */,
+				5B8A4A1D15F85A430068DCD3 /* ConnectionManager.h */,
 				5BA952DF15F4D1680076CF9B /* AppDelegate.h */,
 				5BA952E015F4D1680076CF9B /* AppDelegate.m */,
 				5BA952E215F4D1680076CF9B /* MainStoryboard.storyboard */,
@@ -265,6 +270,7 @@
 				5BA952DD15F4D1680076CF9B /* main.m in Sources */,
 				5BA952E115F4D1680076CF9B /* AppDelegate.m in Sources */,
 				5BA952E715F4D1680076CF9B /* ViewController.m in Sources */,
+				5B8A4A2015F85A580068DCD3 /* ConnectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				5BA9530115F4D1690076CF9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA9530215F4D1690076CF9B /* Build configuration list for PBXNativeTarget "bluetoothtestTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				5BA9530415F4D1690076CF9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
