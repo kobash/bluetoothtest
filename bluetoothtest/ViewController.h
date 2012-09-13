@@ -10,7 +10,7 @@
 #import "ConnectionManager.h"
 
 
-@interface ViewController : UIViewController <ConnectionManagerDelegate>
+@interface ViewController : UIViewController <ConnectionManagerDelegate,UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *send_data;
 
 - (IBAction)connect:(id)sender;

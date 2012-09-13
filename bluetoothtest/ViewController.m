@@ -25,7 +25,7 @@
 
 	connectionManager = [[ConnectionManager alloc] init];
     connectionManager.delegate = self;
-
+    send_data.delegate = self; //←storyboradでも、紐付けできる。
 }
 
 - (void)viewDidUnload
@@ -46,6 +46,15 @@
                                            encoding:NSUTF8StringEncoding];
     NSString* text = [self.send_data.text stringByAppendingFormat:@"%@\n", msg];
     self.send_data.text = text;
+}
+
+
+- (void)connectionManagerDidConnect:(ConnectionManager *)manager
+{
+}
+
+- (void)connectionManagerDidDisconnect:(ConnectionManager *)manager
+{
 }
 
 
@@ -82,5 +91,12 @@
     [send_data resignFirstResponder];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [send_data resignFirstResponder];
+    return YES;
+}
+
 
 @end
+
+
