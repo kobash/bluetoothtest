@@ -26,6 +26,7 @@
 	connectionManager = [[ConnectionManager alloc] init];
     connectionManager.delegate = self;
     send_data.delegate = self; //←storyboradでも、紐付けできる。
+    
 }
 
 - (void)viewDidUnload
